@@ -61,7 +61,8 @@
 
 ## 依赖
 
-
+- rust-crypto = "^0.2"
+- embed-resource="^2.0"
 
 ## 贡献
 

@@ -61,6 +61,8 @@ Black Cracker Rusty is a password cracking framework built with Rust. It integra
 
 ## Dependencies
 
+- rust-crypto = "^0.2"
+- embed-resource="^2.0"
 
 
 ## Contributing
