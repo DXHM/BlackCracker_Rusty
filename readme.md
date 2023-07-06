@@ -1,41 +1,76 @@
-# BlackCracker_Rusty
+# Black Cracker Rusty
 
-BlackCracker_Rusty 是一个使用 Rust 编写的密码破解工具。它提供了一些基本的密码破解功能，包括字典攻击、弱密码检测和哈希破解。
+## Project Description
 
-## 功能特性
+Black Cracker Rusty is a password cracking framework built with Rust. It integrates various password cracking functionalities, including dictionary attack, weak password detection, and hash cracking.
 
-- 字典攻击：通过使用自定义的字典文件对目标进行密码破解。
-- 弱密码检测：检查目标是否使用了常见的弱密码。
-- 哈希破解：尝试破解常见哈希算法的哈希值。
+## Features
 
-## 使用方法
+- **Dictionary Attack Mode**: Attempts to crack a target password by iterating through passwords in a dictionary file.
+- **Weak Password Check Mode**: Checks if a target password is weak and provides a password strength assessment.
+- **Hash Cracking Mode**: Attempts to crack password hashes and recover the original passwords.
 
-运行 BlackCracker_Rusty 需要以下命令行参数：
+## Installation
 
-cargo run -- <mode> <target>
+1. Clone the project to your local machine:
 
-- `<mode>`: 模式选项，可选的值包括 "dictionary"、"weak_password" 和 "hash_cracker"。
-- `<target>`: 目标选项，表示你要对其进行密码破解或检测的目标。
+   ```bash
+   git clone https://github.com/dxhm/Blackcracker_rusty.git
+   ```
 
-示例：
-cargo run -- dictionary example_target.txt
-cargo run -- weak_password example_target.txt
-cargo run -- hash_cracker example_target_hash
+2. Navigate to the project directory:
+
+   ```bash
+   cd Blackcracker_rusty
+   ```
+
+3. Build the project:
+
+   ```bash
+   cargo build --release
+   ```
+
+4. Run the project:
+
+   ```bash
+   cargo run -- <mode> <target>
+   ```
+
+   - `<mode>`: Select the mode to run, which can be `dictionary`, `weak_password`, or `hash_cracker`.
+   - `<target>`: The target password or hash value.
+
+## Usage Examples
+
+- Dictionary Attack Mode:
+
+  ```bash
+  blackcracker_rusty dictionary password123
+  ```
+
+- Weak Password Check Mode:
+
+  ```bash
+  blackcracker_rusty weak_password user1
+  ```
+
+- Hash Cracking Mode:
+
+  ```bash
+  blackcracker_rusty hash_cracker 5f4dcc3b5aa765d61d8327deb882cf99
+  ```
+
+## Dependencies
 
 
-请确保你已经按照项目的需求准备好字典文件和哈希值。
 
-## 测试
+## Contributing
 
-BlackCracker_Rusty 包含了一些基本的单元测试。可以使用以下命令运行测试：
 
-cargo test
 
-## 许可证
+## License
 
-BlackCracker_Rusty 使用 [MIT 许可证](LICENSE)。
 
-## 贡献
 
-欢迎对 BlackCracker_Rusty 进行贡献！如果你发现了 bug，或者有任何改进建议，请提出 issue 或提交 pull 请求。
+---
 
+Please modify and expand this README file according to your project's specific requirements and needs.

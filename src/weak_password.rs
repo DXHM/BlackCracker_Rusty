@@ -3,7 +3,7 @@ use std::io::{self, BufRead};
 use std::path::Path;
 
 pub fn check(target: &str) {
-    let weak_passwords_path = "weak_passwords.txt";  // 弱密码列表文件路径，根据你的实际情况进行修改
+    let weak_passwords_path = "weak_passwords.txt";  // 弱密码列表文件路径
 
     // 打开弱密码列表文件
     let file = File::open(weak_passwords_path).expect("Failed to open weak passwords file");
