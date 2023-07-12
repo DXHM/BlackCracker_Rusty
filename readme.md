@@ -1,6 +1,6 @@
 # Black Cracker Rusty
 
-For the Chinese version of the description, please refer to [中文版说明](/README_CN.md).
+>For the Chinese version of the description, please refer to [中文版说明](/readme_cn.md).
 
 I have recently become obsessed with playing Rust and thought of creating a web or cryptography tool using Rust.
 
