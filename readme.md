@@ -112,4 +112,6 @@ Release: [Release](https://github.com/dxhm/BlackCracker_Rusty/releases/latest)
 
 ## License
 
----
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DXHM/BlackCracker_Rusty&type=Date)](https://star-history.com/#DXHM/BlackCracker_Rusty&Date)
