@@ -111,6 +111,7 @@ Release: [Release](https://github.com/dxhm/BlackCracker_Rusty/releases/latest)
 [<img alt="AShujiao" src="https://avatars.githubusercontent.com/u/69539047?v=4" width="117">](https://github.com/dxhm)
 
 ## License
+[![gplv3](https://www.gnu.org/graphics/gplv3-or-later.png)](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 ## Star History
 
